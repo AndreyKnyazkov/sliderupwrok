@@ -1,0 +1,53 @@
+.slider
+  display: flex
+  margin-bottom: 50px
+  display: flex
+  justify-content: center
+  // it's for the slider. When a slider card is not inside the body container you don't get vertical scroll bar
+  overflow: hidden
+  &-card
+    display: flex
+    flex-direction: column
+    background: url(../img/background.png) center center
+    background-size: cover
+    max-width: 290px
+    height: 340px
+    border: 2px solid #fff
+    border-radius: 4px  
+    padding: 17px  
+    margin: 15px
+  &-title
+    font-size: 15px
+    color: #363636
+    margin-bottom: 10px
+  &-description
+    color: #989898
+    font-size: 12px
+    line-height: 121.69%
+  &-info
+    margin-top: 10px
+    max-width: 85%
+    padding: 4px
+    background: #EBEBEB
+    color: #ABABAB
+    border-radius: 6px
+    font-size: 14px
+  &-button
+    &s
+      display: flex
+      margin-top: auto
+      a
+        display: flex
+        align-items: center
+        color: #fff
+        font-size: 12px
+        border-radius: 50px
+        padding: 5px
+        margin-right: 10px
+        i
+          font-size: 16px
+          margin-right: 4px
+    &-entroll
+      background: #595959
+    &-course
+      background: #969696

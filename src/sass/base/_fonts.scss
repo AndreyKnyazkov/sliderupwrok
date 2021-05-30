@@ -1,0 +1,15 @@
+// there should be imported font
+@mixin Light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+@mixin Reg {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin Bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
